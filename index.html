@@ -3,14 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link ref="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>World clock - Joyce Feng</title>
   </head>
   <body>
-    <h1>World clock</h1>
+    <div class="container">
+      <h1>World clock</h1>
+
+      <select>
+        <option value="">Select a city...</option>
+        <option value="">London</option>
+        <option value="">New York</option>
+        <option value="">Auckland</option>
+      </select>
+    </div>
+    <div class="city">
+      <h2>Los Angles</h2>
+      <div class="date">August 15th 2022</div>
+      <div class="time">1:48:15 AM</div>
+    </div>
+
+    <div class="city">
+      <h2>Sydney</h2>
+      <div class="date">August 15th 2022</div>
+      <div class="time">1:48:15 AM</div>
+    </div>
+
     <footer>
       thic project was coded by Joyce Feng and is
-      <a href="#" target="_blank">open sourced on GitHub</a>
+      <a href="https://github.com/JoyceF-9/world-clock" target="_blank"
+        >open sourced on GitHub</a
+      >
     </footer>
     <script src="javascript/index.js" target="_blank"></script>
   </body>
